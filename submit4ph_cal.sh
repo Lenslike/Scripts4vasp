@@ -6,7 +6,7 @@ script_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 for i in {1..8}; do
     dir_name="disp-00$i"
     mkdir -p "$dir_name"
-    cp "POSCAR-00$i" "$dir_name"
+    cp "POSCAR-00$i" "$dir_name/POSCAR"
     cp "POTCAR" "$dir_name"
     cp "INCAR" "$dir_name"
     cp "KPOINTS" "$dir_name"
