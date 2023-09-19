@@ -15,7 +15,4 @@ fi
 if [ $soc=$kwc -a $sof=$kwf ]; then 
 echo 'Perfect'
 fi
-(base) qli@lqlhz H2O_gas % bash check_out.sh 
-converged
-finished
-Perfect
+
